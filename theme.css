@@ -4387,9 +4387,13 @@ span {
     background-size: 80%
 }
 
-.member-roles .member-role>.name {
+.member-role {
+    padding: 4px 8px!important;
+    font-weight: 500;
+    border-radius: 4px!important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    border: none!important;
     visibility: visible!important;
-    font-weight: 600
 }
 
 .user-popout .body .roles .member-role.member-role-add {
